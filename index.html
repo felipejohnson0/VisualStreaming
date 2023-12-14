@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="language" content="pt-br">
+	<meta name="author" content="SuperFlix 2.0">
+	<meta name="theme-color" content="#000000">
+	<meta name="robots" content="index,follow">
+	<link rel="sitemap" type="application/xml" title="Sitemap" href="https://superflix20.com/sitemap.xml">
+	<link rel="icon" href="movie/images/IC.png" type="image/x-icon">
+
+	<link rel="preload" href="https://superflix20.com/css/opensans.woff2" as="font" type="font/woff2" crossorigin="">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		:root {
+			--mainColor: #e50000;
+			--mainShaddow: rgba(255, 0, 0, 0.76);
+			--mainShaddowHover: rgba(255, 0, 0, 0.527);
+			--mainColorHover: rgb(223, 25, 25);
+			--mainColorText: rgb(255, 255, 255);
+			--themeBackground: rgb(5, 5, 15);
+			--themeBackgroundNumbers: 5, 5, 15;
+		}
+	</style>
+	<script>
+		var urlLinking = { siteUrl: "https://superflix20.com", movieStart: "assistir-", movieAltStart: "Assistir", movieEnd: "-online-gratis", movieAltEnd: "online", serieStart: "serie-", serieAltStart: "Assistir", serieEnd: "-online-gratis", serieAltEnd: "Online Grátis", moviesListStart: "filmes/genero/", moviesListAll: "filmes/online", seriesListStart: "series/", seriesListAll: "series", moviesLaunchingStart: "filmes/lancamento/", moviesLaunchingAll: "filmes/lancamento", moviesTopStart: "filmes/mega-filmes/", moviesTopAll: "filmes/mega-filmes", posterButtonTitle: "Assistir Online", posterMovieGText: "Filme Online Gratis", posterSerieGText: "Serie Online Gratis", posterMovieHrefTitleStart: "Assistir", posterMovieHrefTitleEnd: "Online", posterSerieHrefTitleStart: "Assistir", posterSerieHrefTitleEnd: "Online", indexMoviesOffset: "8", indexFeaturedMovieOffset: "2", indexLaunchMoviesOffset: "6", schemaRatingOffset: "18", };
+		var imageType = "webp";
+	</script>
+	<title>Visual Streaming </title>
+	<meta name="description"
+		content="Filmes Online - Filmes Gratis - Assistir Filmes - Assistir Filmes Online Gratis - Filmes Gratis Dublados e Legendados">
+	<meta name="keywords"
+		content="filmes,online,filmes online,gratis,online,gratis,torrent,legendado,dublados,2022,2021,2020,2019,2018,Series,HD,720p">
+	<link rel="canonical" href="#">
+	<meta property="og:title" content="Superflix 2.0 - Filmes Online - Filmes Gratis - Online Gratis">
+	<meta property="og:image" content="S (1) (1).png">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:site_name" content="SuperFlix 2.0">
+	<meta property="og:description"
+		content="Filmes Online - Filmes Gratis - Assistir Filmes - Assistir Filmes Online Gratis - Filmes Gratis Dublados e Legendados">
+	<meta property="og:url" content="#">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="#">
+	<meta name="twitter:creator" content="SuperFlix 2.0">
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "WebPage",
+		"name": "SuperFlix20.com",
+		"alternateName": "SuperFlix 2.0",
+		"headline": "Superflix 2.0 - Filmes Online - Filmes Gratis - Online Gratis",
+		"description": "Filmes Online - Filmes Gratis - Assistir Filmes - Assistir Filmes Online Gratis - Filmes Gratis Dublados e Legendados",
+		"url": "#",
+		"potentialAction": 
+		{
+			"@type": "SearchAction",
+			"target": "#/pesquisar/{search_term_string}",
+			"query-input": "required name=search_term_string"
+		}
+	}
+	</script>
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"url": "#",
+		"logo": "#"
+	}
+
+	</script>
+	<style>
+		#mainLauncher .background {
+			background-image: url(https://www.themoviedb.org/t/p/original/gGgDMV1vN20q8qEdxV0K43UrK0y.jpg);
+		}
+
+		#recentMovie .background {
+			background-image: url(https://www.themoviedb.org/t/p/original/yOm993lsJyPmBodlYjgpPwBjXP9.jpg);
+		}
+	</style>
+</head>
+
+<body id="index">
+	<header id="topBar">
+		<div class="wrap">
+			<a title="VisualStreaming - Filmes Gratis - Series Gratis" href="/" class="logo">
+				<img src="movie/images/logg.png" width="199" height="64"
+					alt="VisualStreaming - Filmes Gratis - Series Gratis">
+					<span style="color: #ffffff;font-size: 0.8em; vertical-align: super; line-height: 0.8;">beta</span>
+			</a>
+			<div class="openTopBar">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+			<div class="searchBar">
+				<input type="text" placeholder="Pesquise filmes por título ou elenco...">
+				<div class="searchBtn" onclick="showSearchBar()">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451">
+						<path
+							d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z">
+						</path>
+					</svg>
+				</div>
+			</div>
+			<div class="menu">
+				<a title="Assistir filmes online no VisualStreaming" class="hover item active" href="/">
+					Página Inicial </p> 
+				</a>
+					
+				<span class="hover item arrowed " onclick="showSubmenu();">
+					Filmes <i></i>
+					<div class="subMenu">
+						<div class="wrap">
+							<a title="Filmes Online" href="filmes/genero/todos">
+								Ver todos
+							</a>
+							<a title="Filmes Comédia" href="filmes/genero/comedia">
+								Comédia
+							</a>
+							<a title="Filmes Policial" href="filmes/genero/crime">
+								Policial
+							</a>
+							<a title="Filmes Guerra" href="filmes/genero/guerra">
+								Guerra
+							</a>
+							<a title="Filmes Mistério" href="filmes/genero/misterio">
+								Mistério
+							</a>
+							<a title="Filmes Família" href="filmes/genero/familia">
+								Família
+							</a>
+							<a title="Filmes Animação" href="filmes/genero/animacao">
+								Animação
+							</a>
+							<a title="Filmes Ação" href="filmes/genero/acao">
+								Ação
+							</a>
+							<a title="Filmes Drama" href="filmes/genero/drama">
+								Drama
+							</a>
+							<a title="Filmes Aventura" href="filmes/genero/aventura">
+								Aventura
+							</a>
+							<a title="Filmes Romance" href="filmes/genero/romance">
+								Romance
+							</a>
+							<a title="Filmes Terror" href="filmes/genero/terror">
+								Terror
+							</a>
+							<a title="Filmes Documentário" href="filmes/genero/documentario">
+								Documentário
+							</a>
+							<a title="Filmes Suspense" href="filmes/genero/suspense">
+								Suspense
+							</a>
+							<a title="Filmes Musical" href="filmes/genero/musical">
+								Musical
+							</a>
+							<a title="Filmes Ficção científica" href="filmes/genero/fantasia">
+								Ficção científica
+							</a>
+						</div>
+					</div>
+				</span>
+				<a title="Assistir Series Online" class="hover item " href="series">
+					Series </a>
+				<a title="Filmes em Estreia - Filmes Lançamento" class="hover item " href="filmes/lancamento">
+					Lançamentos </a>
+			</div>
+		</div>
+	</header>
+	<div id="mainLauncher">
+		<div class="hover"></div>
+		<div class="wrap">
+			<div class="moviePresent">
+				<img class="movieLogo" id="movielogoindex" src="https://www.themoviedb.org/t/p/original/jF18k6GGJ0OlQrGDwSm2io6lYtV.png" height="250" width="500"
+					alt="Assistir Sundown online">
+				<div class="infos">
+					<div class="rating">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.94 49.94">
+							<path
+								d="M48.856 22.731a3.56 3.56 0 0 0 .906-3.671 3.56 3.56 0 0 0-2.892-2.438l-12.092-1.757a1.58 1.58 0 0 1-1.19-.865L28.182 3.043a3.56 3.56 0 0 0-3.212-1.996 3.56 3.56 0 0 0-3.211 1.996L16.352 14c-.23.467-.676.79-1.191.865L3.069 16.623A3.557 3.557 0 0 0 .178 19.06a3.56 3.56 0 0 0 .906 3.671l8.749 8.528c.373.364.544.888.456 1.4L8.224 44.702a3.559 3.559 0 0 0 1.424 3.502 3.552 3.552 0 0 0 3.772.273l10.814-5.686a1.583 1.583 0 0 1 1.472 0l10.815 5.686a3.568 3.568 0 0 0 3.772-.273 3.559 3.559 0 0 0 1.424-3.502L39.651 32.66a1.582 1.582 0 0 1 .456-1.4l8.749-8.529zM37.681 32.998l2.065 12.042a1.553 1.553 0 0 1-.629 1.547 1.558 1.558 0 0 1-1.665.121l-10.815-5.687a3.588 3.588 0 0 0-3.334.001L12.49 46.708a1.56 1.56 0 0 1-1.666-.121 1.554 1.554 0 0 1-.629-1.547l2.065-12.042a3.581 3.581 0 0 0-1.03-3.17l-8.75-8.529a1.55 1.55 0 0 1-.4-1.621c.19-.586.667-.988 1.276-1.077l12.091-1.757a3.576 3.576 0 0 0 2.697-1.959l5.407-10.957a1.551 1.551 0 0 1 1.418-.881c.616 0 1.146.329 1.419.881l5.407 10.957a3.575 3.575 0 0 0 2.696 1.959l12.092 1.757a1.552 1.552 0 0 1 1.276 1.077c.19.585.041 1.191-.4 1.621l-8.749 8.528a3.58 3.58 0 0 0-1.029 3.171z">
+							</path>
+						</svg>
+						6.6
+						<div class="of">/10</div>
+					</div>
+					<div class="year">
+						Filme de <b>2022</b>
+					</div>
+					<div class="quality">
+						Qualidade <b>FULL HD</b>
+					</div>
+				</div>
+				<h1>
+					VisualStreaming - Filmes Gratis - Series Gratis</h1>
+				<p>
+					Alice (Charlotte Gainsbourg) e Neil (Tim Roth) são dois irmãos bilionários passando as férias em
+					Acapulco com os filhos dela. No entanto, eles recebem a ligação de que a mãe, dona dos negócios
+					familiares, morreu. Alice entra em desespero e faz as malas para retornar �&nbsp; Inglaterra. Neil,
+					por sua vez, decide que não voltará ao seu país - talvez nunc... </p>
+				<div class="buttons">
+					<a class="gButton red iconized" title="Assistir Sundown Online Gratis"
+						href="assistir-sundown-2022-online-gratis">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 232.153 232.153">
+							<path
+								d="M203.791 99.628L49.307 2.294C44.74-.425 39.069.028 34.786.028 17.654.028 17.73 13.255 17.73 16.606v198.94c0 2.833-.075 16.579 17.056 16.579 4.283 0 9.955.451 14.521-2.267l154.483-97.333c12.68-7.545 10.489-16.449 10.489-16.449s2.192-8.904-10.488-16.448z"
+								fill-rule="evenodd" clip-rule="evenodd"></path>
+						</svg>
+						Assistir Filme Gratis
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="listingHome">
+		<div class="wrap">
+			<div class="options">
+				<span class="item active" data-show-home-list="1">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.94 49.94">
+						<path
+							d="M48.856 22.731a3.56 3.56 0 0 0 .906-3.671 3.56 3.56 0 0 0-2.892-2.438l-12.092-1.757a1.58 1.58 0 0 1-1.19-.865L28.182 3.043a3.56 3.56 0 0 0-3.212-1.996 3.56 3.56 0 0 0-3.211 1.996L16.352 14c-.23.467-.676.79-1.191.865L3.069 16.623A3.557 3.557 0 0 0 .178 19.06a3.56 3.56 0 0 0 .906 3.671l8.749 8.528c.373.364.544.888.456 1.4L8.224 44.702a3.559 3.559 0 0 0 1.424 3.502 3.552 3.552 0 0 0 3.772.273l10.814-5.686a1.583 1.583 0 0 1 1.472 0l10.815 5.686a3.568 3.568 0 0 0 3.772-.273 3.559 3.559 0 0 0 1.424-3.502L39.651 32.66a1.582 1.582 0 0 1 .456-1.4l8.749-8.529zM37.681 32.998l2.065 12.042a1.553 1.553 0 0 1-.629 1.547 1.558 1.558 0 0 1-1.665.121l-10.815-5.687a3.588 3.588 0 0 0-3.334.001L12.49 46.708a1.56 1.56 0 0 1-1.666-.121 1.554 1.554 0 0 1-.629-1.547l2.065-12.042a3.581 3.581 0 0 0-1.03-3.17l-8.75-8.529a1.55 1.55 0 0 1-.4-1.621c.19-.586.667-.988 1.276-1.077l12.091-1.757a3.576 3.576 0 0 0 2.697-1.959l5.407-10.957a1.551 1.551 0 0 1 1.418-.881c.616 0 1.146.329 1.419.881l5.407 10.957a3.575 3.575 0 0 0 2.696 1.959l12.092 1.757a1.552 1.552 0 0 1 1.276 1.077c.19.585.041 1.191-.4 1.621l-8.749 8.528a3.58 3.58 0 0 0-1.029 3.171z">
+						</path>
+					</svg>
+					Lançamentos
+				</span>
+				<span class="item" data-show-home-list="2">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.238 44.238">
+						<path
+							d="M22.119 44.237C9.922 44.237 0 34.315 0 22.12 0 9.924 9.922.001 22.119.001S44.238 9.923 44.238 22.12s-9.924 22.117-22.119 22.117zm0-42.736C10.75 1.501 1.5 10.751 1.5 22.12s9.25 20.619 20.619 20.619 20.619-9.25 20.619-20.619-9.25-20.619-20.619-20.619z">
+						</path>
+						<path d="M31.434 22.869H12.805a.75.75 0 0 1 0-1.5h18.628a.75.75 0 0 1 .001 1.5z"></path>
+						<path
+							d="M22.119 32.183a.75.75 0 0 1-.75-.75V12.806a.75.75 0 0 1 1.5 0v18.626a.75.75 0 0 1-.75.751z">
+						</path>
+					</svg>
+					Novos Filmes
+				</span>
+				<span class="item" data-show-home-list="3">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.019 512.019">
+						<path
+							d="M447.28 304.8l-.365-5.01c-5.865-76.354-41.417-124.219-72.781-166.438-29.042-39.094-54.125-72.854-54.125-122.667 0-4-2.24-7.656-5.792-9.49-3.563-1.844-7.844-1.542-11.083.813-47.104 33.708-86.406 90.521-100.135 144.729-9.531 37.74-10.792 80.167-10.969 108.188-43.5-9.292-53.354-74.365-53.458-75.073a10.722 10.722 0 0 0-5.552-7.917c-3.031-1.583-6.594-1.698-9.667-.177-2.281 1.104-55.99 28.396-59.115 137.375-.219 3.625-.229 7.25-.229 10.885 0 105.865 86.135 192 192 192s192-86.135 192-192c0-5.312-.364-10.27-.729-15.218zM256.009 490.685c-35.292 0-64-30.583-64-68.177 0-1.281-.01-2.573.083-4.156.427-15.854 3.438-26.677 6.74-33.875 6.188 13.292 17.26 25.51 35.219 25.51a10.66 10.66 0 0 0 10.667-10.667c0-15.188.313-32.708 4.094-48.521 3.365-14.031 11.406-28.938 21.594-40.896 4.531 15.521 13.365 28.083 21.99 40.344 12.344 17.542 25.104 35.677 27.344 66.604.135 1.833.271 3.677.271 5.656-.002 37.595-28.71 68.178-64.002 68.178zm67.412-13.937c11.072-15.099 17.922-33.763 17.922-54.24 0-2.51-.156-4.844-.469-9.208-2.531-34.823-17.667-56.344-31.031-75.333-11.385-16.167-21.208-30.135-21.208-49.948 0-4.052-2.292-7.75-5.917-9.552a10.62 10.62 0 0 0-11.177 1.042c-20.458 15.458-37.521 41.479-43.479 66.323-3.042 12.74-4.104 26.521-4.479 37.854-7.396-7.958-9.688-22.708-9.708-22.906a10.684 10.684 0 0 0-5.656-8.01c-3.052-1.583-6.708-1.625-9.781-.042-2.688 1.375-26.302 14.917-27.656 64.729-.094 1.688-.104 3.375-.104 5.052 0 20.477 6.85 39.141 17.922 54.24-60.664-26.195-103.255-86.563-103.255-156.729 0-3.198-.01-6.385.208-9.938 1.833-63.938 22.292-95.646 35.646-109.635 9.312 33.333 33.708 76.906 81.479 76.906a10.66 10.66 0 0 0 10.667-10.667c0-35.698.802-76.948 10.344-114.719 10.833-42.792 40.51-89 76.333-120.281 5.948 45.688 30.833 79.188 56.99 114.385 31.094 41.854 63.24 85.135 68.625 155.219l.365 5.104c.333 4.438.677 8.865.677 13.625-.003 70.166-42.594 130.534-103.258 156.729z">
+						</path>
+					</svg>
+					Populares
+				</span>
+				<span class="item" data-show-home-list="4">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.619 39.619">
+						<path
+							d="M19.809 33.271C6.706 33.271.117 20.229.052 20.098A.498.498 0 0 1 0 19.877v-.133c0-.077.018-.152.052-.221.065-.132 6.654-13.175 19.757-13.175 13.104 0 19.694 13.043 19.759 13.175a.502.502 0 0 1 .052.221v.133a.498.498 0 0 1-.052.221c-.066.132-6.655 13.173-19.759 13.173zm-18.78-13.46c.774 1.446 7.066 12.461 18.779 12.461 11.729 0 18.008-11.015 18.781-12.461-.774-1.445-7.065-12.463-18.781-12.463-11.727 0-18.006 11.016-18.779 12.463z">
+						</path>
+						<path
+							d="M19.809 26.312a6.443 6.443 0 0 1-6.434-6.437 6.442 6.442 0 0 1 6.434-6.435 6.443 6.443 0 0 1 6.436 6.435c-.001 3.549-2.888 6.437-6.436 6.437zm0-11.872a5.44 5.44 0 0 0-5.434 5.435 5.442 5.442 0 0 0 5.434 5.437 5.443 5.443 0 0 0 5.436-5.437 5.442 5.442 0 0 0-5.436-5.435z">
+						</path>
+						<circle cx="19.81" cy="19.875" r="2.146"></circle>
+					</svg>
+					Mais Assistidos
+				</span>
+			</div>
+		</div>
+		<<div class="itemsList">
+			<div class="bslider deployed" data-bslider-margin="20" data-bslider-left-margin="70" data-bslider-right-margin="50" data-bslider-item-class="gPoster" data-bslider-nav="true" id="homeSliderList" data-single-width="200" data-max-width="4134" data-stage-width="5120"><div class="bslider-outer"><div class="bslider-stage" style="width: 5120px; padding-left: 70px;"><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-a-fuga-de-alice-online-gratis" title="Assistir A Fuga de Alice Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40127.webp" class="img" width="185" height="270" alt="Assistir A Fuga de Alice online" loading="lazy" decoding="async"><div class="e"><h3>Assistir A Fuga de Alice online</h3><div class="g">Suspense</div><p>Uma mulher problemática encontra refúgio em uma fazenda isolada, com a ajuda de seus donos idealísticos - até que uma figura violenta de seu...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>A Fuga de Alice</span><div class="mi"><div class="y">2021</div><div class="r">3.8</div><div class="t">1h, 16min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-minha-estranha-familia-online-gratis" title="Assistir Minha Estranha Família Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40126.webp" class="img" width="185" height="270" alt="Assistir Minha Estranha Família online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Minha Estranha Família online</h3><div class="g">Comédia, Drama</div><p>Para se distanciar de sua família, Laura se mudou do campo para Copenhagen, querendo ser escritora e ter uma vida boêmia. Quando ela relutan...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Minha Estranha Família</span><div class="mi"><div class="y">2021</div><div class="r">6.5</div><div class="t">1h, 31min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-valentina-online-gratis" title="Assistir Valentina Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40125.webp" class="img" width="185" height="270" alt="Assistir Valentina online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Valentina online</h3><div class="g">Animação, Família, Músical</div><p>Valentina está farta da síndrome de sua Down, convencida de que isso a impede de tornar seu sonho verdadeiro: tornar -se um trapézio. Mas um...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Valentina</span><div class="mi"><div class="y">2021</div><div class="r">7.1</div><div class="t">1h, 5min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-mira-online-gratis" title="Assistir Mira Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40124.webp" class="img" width="185" height="270" alt="Assistir Mira online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Mira online</h3><div class="g">Drama, Aventura, Sci-Fi, Família</div><p>Futuro próximo. Lera Arabova é uma menina de 15 anos que mora com sua família em Vladivostok. O pai de Lera trabalha na estação espacial em ...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Mira</span><div class="mi"><div class="y">2022</div><div class="r">5.8</div><div class="t">1h, 50min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-wonka-online-gratis" title="Assistir Wonka Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40123.webp" class="img" width="185" height="270" alt="Assistir Wonka online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Wonka online</h3><div class="g">Comédia, Família, Fantasia</div><p>Um jovem Willy Wonka embarca em uma missão para espalhar alegria por meio de seu chocolate, que rapidamente se torna um fenômeno.</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Wonka</span><div class="mi"><div class="y">2023</div><div class="r">7.5</div><div class="t">1h, 57min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-sundown-2022-online-gratis" title="Assistir Sundown Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40122.webp" class="img" width="185" height="270" alt="Assistir Sundown online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Sundown online</h3><div class="g">Drama</div><p>Alice (Charlotte Gainsbourg) e Neil (Tim Roth) são dois irmãos bilionários passando as férias em Acapulco com os filhos dela. No entanto, el...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Sundown</span><div class="mi"><div class="y">2022</div><div class="r">6.6</div><div class="t">1h, 22min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-mentes-brilhantes-online-gratis" title="Assistir Mentes Brilhantes Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40121.webp" class="img" width="185" height="270" alt="Assistir Mentes Brilhantes online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Mentes Brilhantes online</h3><div class="g">Drama</div><p>Sr. Martinez é um professor dedicado que lidera um grupo de jovens do ensino médio em um bairro pobre de Miami a competir no Campeonato Naci...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Mentes Brilhantes</span><div class="mi"><div class="y">2020</div><div class="r">6.5</div><div class="t">1h, 57min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-o-tempero-da-vida-online-gratis" title="Assistir O Tempero da Vida Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40120.webp" class="img" width="185" height="270" alt="Assistir O Tempero da Vida online" loading="lazy" decoding="async"><div class="e"><h3>Assistir O Tempero da Vida online</h3><div class="g">Drama, Comédia</div><p>Após a morte de sua esposa, o chef Cheng viaja com seu filho para uma aldeia remota na Finlândia a convite de um velho amigo que conheceu em...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>O Tempero da Vida</span><div class="mi"><div class="y">2019</div><div class="r">6.9</div><div class="t">1h, 54min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-diario-de-um-banana-no-natal-casa-dos-horrores-online-gratis" title="Assistir Diário de um Banana no Natal: Casa dos Horrores Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40119.webp" class="img" width="185" height="270" alt="Assistir Diário de um Banana no Natal: Casa dos Horrores online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Diário de um Banana no Natal: Casa dos Horrores online</h3><div class="g">Animação, Comédia, Família</div><p>As férias de inverno estão sendo especialmente estressantes para Greg Heffley este ano. Depois de danificar acidentalmente um limpa-neves en...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Diário de um Banana no Natal: Casa dos Horrores</span><div class="mi"><div class="y">2023</div><div class="r">5.8</div><div class="t">1h, 4min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-a-informante-2023-online-gratis" title="Assistir A Informante Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40118.webp" class="img" width="185" height="270" alt="Assistir A Informante online" loading="lazy" decoding="async"><div class="e"><h3>Assistir A Informante online</h3><div class="g">Crime, Drama, Suspense</div><p>River, uma jovem mãe flagrada em uma pequena apreensão de drogas, é forçada a trabalhar para a polícia como informante secreta e é enviada p...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>A Informante</span><div class="mi"><div class="y">2023</div><div class="r">8.0</div><div class="t">1h, 21min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-um-amor-de-natal-online-gratis" title="Assistir Um Amor de Natal Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40117.webp" class="img" width="185" height="270" alt="Assistir Um Amor de Natal online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Um Amor de Natal online</h3><div class="g">Drama, Comédia, Romance</div><p>Lúcia é mãe solteira de uma garotinha que adora o Natal, Léo. Uma noite ela se apaixona em um encontro às cegas por Sergio, desesperada para...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Um Amor de Natal</span><div class="mi"><div class="y">2023</div><div class="r">5.8</div><div class="t">1h, 38min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-the-worlds-first-christmas-online-gratis" title="Assistir The World's First Christmas Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40116.webp" class="img" width="185" height="270" alt="Assistir The World's First Christmas online" loading="lazy" decoding="async"><div class="e"><h3>Assistir The World's First Christmas online</h3><div class="g">Comédia, Drama</div><p>A família Pinheiro Lima – formada por Pepê, um professor de história viúvo pai de duas meninas e sua nova esposa, Tina, uma chefe de cozinha...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>The World's First Christmas</span><div class="mi"><div class="y">2023</div><div class="r">4.8</div><div class="t">1h, 34min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-silver-e-o-livro-dos-sonhos-online-gratis" title="Assistir Silver e o Livro dos Sonhos Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40115.webp" class="img" width="185" height="270" alt="Assistir Silver e o Livro dos Sonhos online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Silver e o Livro dos Sonhos online</h3><div class="g">Fantasia, Sci-Fi, Romance, Drama</div><p>Quando Liv se muda para Londres, ela conhece o misterioso Henry e seu grupo de amigos, que a levam para o fascinante mundo das viagens dos s...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Silver e o Livro dos Sonhos</span><div class="mi"><div class="y">2023</div><div class="r">7.0</div><div class="t">1h, 32min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-o-mundo-depois-de-nos-online-gratis" title="Assistir O Mundo Depois de Nós Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40114.webp" class="img" width="185" height="270" alt="Assistir O Mundo Depois de Nós online" loading="lazy" decoding="async"><div class="e"><h3>Assistir O Mundo Depois de Nós online</h3><div class="g">Mistério, Suspense, Drama</div><p>As férias de uma família numa casa luxuosa sofrem uma reviravolta quando um ciberataque afeta todos os dispositivos e duas pessoas estranhas...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>O Mundo Depois de Nós</span><div class="mi"><div class="y">2023</div><div class="r">6.7</div><div class="t">2h, 20min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-navio-de-sangue-online-gratis" title="Assistir Navio de Sangue Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40113.webp" class="img" width="185" height="270" alt="Assistir Navio de Sangue online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Navio de Sangue online</h3><div class="g">Suspense, Drama</div><p>Reunidas por acaso, seis pessoas que fugiam de uma cidade devastada pela poluição por petróleo se esconderam em um navio misterioso - sem pe...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Navio de Sangue</span><div class="mi"><div class="y">2023</div><div class="r">6.8</div><div class="t">1h, 59min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-no-seu-natal-ou-no-meu-2-online-gratis" title="Assistir No Seu Natal ou no Meu 2 Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40112.webp" class="img" width="185" height="270" alt="Assistir No Seu Natal ou no Meu 2 online" loading="lazy" decoding="async"><div class="e"><h3>Assistir No Seu Natal ou no Meu 2 online</h3><div class="g">Romance, Comédia</div><p>O pai de James convidou a família de Hayley para um Natal num resort de luxo nos Alpes Austríacos, para que conhecessem a nova namorada amer...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>No Seu Natal ou no Meu 2</span><div class="mi"><div class="y">2023</div><div class="r">6.4</div><div class="t">1h, 41min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-perdida-no-deserto-online-gratis" title="Assistir Perdida no Deserto Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40111.webp" class="img" width="185" height="270" alt="Assistir Perdida no Deserto online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Perdida no Deserto online</h3><div class="g">Drama, Suspense, Terror</div><p>Presa no deserto depois de uma festa secreta, uma jovem precisa enfrentar um camelo vingativo e outros desafios para chegar em casa no horár...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Perdida no Deserto</span><div class="mi"><div class="y">2023</div><div class="r">6.0</div><div class="t">1h, 53min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-the-archies-online-gratis" title="Assistir The Archies Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40110.webp" class="img" width="185" height="270" alt="Assistir The Archies online" loading="lazy" decoding="async"><div class="e"><h3>Assistir The Archies online</h3><div class="g">Romance, Comédia, Drama</div><p>Na Índia dos anos 1960, Archie e os amigos lidam com romances, amizades e o futuro de Riverdale, quando construtoras ameaçam um parque queri...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>The Archies</span><div class="mi"><div class="y">2023</div><div class="r">6.1</div><div class="t">2h, 24min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-tpm-meu-amor-online-gratis" title="Assistir TPM! Meu amor Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40109.webp" class="img" width="185" height="270" alt="Assistir TPM! Meu amor online" loading="lazy" decoding="async"><div class="e"><h3>Assistir TPM! Meu amor online</h3><div class="g">Comédia</div><p>Monique é uma enfermeira muito tímida e retraída, pouco decidida e pouco ativa, que só deseja uma coisa: ser promovida a chefe de enfermagem...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>TPM! Meu amor</span><div class="mi"><div class="y">2023</div><div class="r">6.0</div><div class="t">1h, 20min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-scrapper-online-gratis" title="Assistir Scrapper Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40108.webp" class="img" width="185" height="270" alt="Assistir Scrapper online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Scrapper online</h3><div class="g">Comédia, Drama</div><p>Georgie, uma menina sonhadora de 12 anos, vive feliz sozinha em seu apartamento em Londres, enchendo-o de magia. De repente, seu pai distant...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Scrapper</span><div class="mi"><div class="y">2023</div><div class="r">7.0</div><div class="t">1h, 24min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-missao-condor-online-gratis" title="Assistir Missão Condor Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40107.webp" class="img" width="185" height="270" alt="Assistir Missão Condor online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Missão Condor online</h3><div class="g">Ação, Guerra</div><p>Uma década após o fim da Segunda Guerra Mundial, um aviador americano viaja pela América do Sul em busca de vingança contra os nazistas.</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Missão Condor</span><div class="mi"><div class="y">2023</div><div class="r">4.5</div><div class="t">1h, 43min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-olhar-alheio-online-gratis" title="Assistir Olhar Alheio Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40106.webp" class="img" width="185" height="270" alt="Assistir Olhar Alheio online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Olhar Alheio online</h3><div class="g">Suspense, Terror, Mistério</div><p>Sam recebe uma ligação de Emily, uma mulher quase cega que está fugindo de seu ex-namorado assassino na floresta. Ela deve sobreviver à pers...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Olhar Alheio</span><div class="mi"><div class="y">2023</div><div class="r">5.7</div><div class="t">1h, 16min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-trolls-3-juntos-novamente-online-gratis" title="Assistir Trolls 3 - Juntos Novamente Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40105.webp" class="img" width="185" height="270" alt="Assistir Trolls 3 - Juntos Novamente online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Trolls 3 - Juntos Novamente online</h3><div class="g">Animação, Família, Músical, Fantasia, Comédia</div><p>Depois de dois filmes de amizade verdadeira e paquera implacável, Poppy e Tronco agora são oficialmente, finalmente, um casal! À medida que ...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Trolls 3 - Juntos Novamente</span><div class="mi"><div class="y">2023</div><div class="r">6.0</div><div class="t">1h, 32min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-o-natal-de-costume-online-gratis" title="Assistir O Natal de Costume Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40104.webp" class="img" width="185" height="270" alt="Assistir O Natal de Costume online" loading="lazy" decoding="async"><div class="e"><h3>Assistir O Natal de Costume online</h3><div class="g">Comédia, Romance, Drama</div><p>Para comemorar o noivado, Thea leva Jashan para casa - mas as raízes indianas e as tradições norueguesas de sua família se chocam em um Nata...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>O Natal de Costume</span><div class="mi"><div class="y">2023</div><div class="r">5.2</div><div class="t">1h, 29min</div></div></div></div></a></div><div class="bslider-item" style="padding-right: 20px;"><a href="assistir-rodeio-rock-online-gratis" title="Assistir Rodeio Rock Online" class="gPoster"><div class="inner"><div class="p"><img src="https://superflix20.com/content/movies/posterPt/185/40103.webp" class="img" width="185" height="270" alt="Assistir Rodeio Rock online" loading="lazy" decoding="async"><div class="e"><h3>Assistir Rodeio Rock online</h3><div class="g">Romance, Comédia, Músical</div><p>Hero é um roqueiro muito talentoso, mas pouco reconhecido; Sandro é o sertanejo mais famoso e polêmico do Brasil. Após uma cirurgia deixar o...</p><span class="gButton red">Assistir Online</span></div></div><div class="i"><span>Rodeio Rock</span><div class="mi"><div class="y">2023</div><div class="r">6.0</div><div class="t">1h, 20min</div></div></div></div></a></div></div></div><div class="bslider-prev bslider-nav"><div class="bicon"><div class="line"></div><div class="line"></div></div></div><div class="bslider-next bslider-nav"><div class="bicon"><div class="line"></div><div class="line"></div></div></div></div>
+			</div>
+		<div class="wrap">
+			<div id="recentMovie">
+				<div class="hover"></div>
+				<div class="moviePresent">
+					<div class="runtime">
+						Filme - Duração: 1h, 57min </div>
+					<div class="infos">
+						<div class="rating">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.94 49.94">
+								<path
+									d="M48.856 22.731a3.56 3.56 0 0 0 .906-3.671 3.56 3.56 0 0 0-2.892-2.438l-12.092-1.757a1.58 1.58 0 0 1-1.19-.865L28.182 3.043a3.56 3.56 0 0 0-3.212-1.996 3.56 3.56 0 0 0-3.211 1.996L16.352 14c-.23.467-.676.79-1.191.865L3.069 16.623A3.557 3.557 0 0 0 .178 19.06a3.56 3.56 0 0 0 .906 3.671l8.749 8.528c.373.364.544.888.456 1.4L8.224 44.702a3.559 3.559 0 0 0 1.424 3.502 3.552 3.552 0 0 0 3.772.273l10.814-5.686a1.583 1.583 0 0 1 1.472 0l10.815 5.686a3.568 3.568 0 0 0 3.772-.273 3.559 3.559 0 0 0 1.424-3.502L39.651 32.66a1.582 1.582 0 0 1 .456-1.4l8.749-8.529zM37.681 32.998l2.065 12.042a1.553 1.553 0 0 1-.629 1.547 1.558 1.558 0 0 1-1.665.121l-10.815-5.687a3.588 3.588 0 0 0-3.334.001L12.49 46.708a1.56 1.56 0 0 1-1.666-.121 1.554 1.554 0 0 1-.629-1.547l2.065-12.042a3.581 3.581 0 0 0-1.03-3.17l-8.75-8.529a1.55 1.55 0 0 1-.4-1.621c.19-.586.667-.988 1.276-1.077l12.091-1.757a3.576 3.576 0 0 0 2.697-1.959l5.407-10.957a1.551 1.551 0 0 1 1.418-.881c.616 0 1.146.329 1.419.881l5.407 10.957a3.575 3.575 0 0 0 2.696 1.959l12.092 1.757a1.552 1.552 0 0 1 1.276 1.077c.19.585.041 1.191-.4 1.621l-8.749 8.528a3.58 3.58 0 0 0-1.029 3.171z">
+								</path>
+							</svg>
+							6.5
+							<div class="of">/10</div>
+						</div>
+						<div class="year">
+							Filme de <b>2023</b>
+						</div>
+						<div class="quality">
+							Qualidade <b>FULL HD</b>
+						</div>
+					</div>
+					<h3>
+						Wonka </h3>
+						Todas as coisas boas neste mundo começaram com um sonho.
+					<p>
+						Um jovem Willy Wonka embarca em uma missão para espalhar alegria por meio de seu chocolate, que rapidamente se torna um fenômeno. </p>
+					<div class="buttons">
+						<a class="gButton red iconized" title="Assistir Mentes Brilhantes Online Gratis"
+							href="assistir-mentes-brilhantes-online-gratis">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 232.153 232.153">
+								<path
+									d="M203.791 99.628L49.307 2.294C44.74-.425 39.069.028 34.786.028 17.654.028 17.73 13.255 17.73 16.606v198.94c0 2.833-.075 16.579 17.056 16.579 4.283 0 9.955.451 14.521-2.267l154.483-97.333c12.68-7.545 10.489-16.449 10.489-16.449s2.192-8.904-10.488-16.448z"
+									fill-rule="evenodd" clip-rule="evenodd"></path>
+							</svg>
+							Assistir Filme Gratis
+						</a>
+					</div>
+				</div>
+			</div>
+			<div id="lastHome">
+				<h3>
+					VisualStreaming - Os melhores filmes online do brasil</h3>
+				<div class="cats">
+					<a title="Filmes Comédia" href="filmes/genero/comedia" class="item">
+						Comédia
+					</a>
+					<a title="Filmes Policial" href="filmes/genero/crime" class="item">
+						Policial
+					</a>
+					<a title="Filmes Guerra" href="filmes/genero/guerra" class="item">
+						Guerra
+					</a>
+					<a title="Filmes Mistério" href="filmes/genero/misterio" class="item">
+						Mistério
+					</a>
+					<a title="Filmes Família" href="filmes/genero/familia" class="item">
+						Família
+					</a>
+					<a title="Filmes Animação" href="filmes/genero/animacao" class="item">
+						Animação
+					</a>
+					<a title="Filmes Ação" href="filmes/genero/acao" class="item">
+						Ação
+					</a>
+					<a title="Filmes Drama" href="filmes/genero/drama" class="item">
+						Drama
+					</a>
+					<a title="Filmes Aventura" href="filmes/genero/aventura" class="item">
+						Aventura
+					</a>
+					<a title="Filmes Romance" href="filmes/genero/romance" class="item">
+						Romance
+					</a>
+					<a title="Filmes Terror" href="filmes/genero/terror" class="item">
+						Terror
+					</a>
+					<a title="Filmes Documentário" href="filmes/genero/documentario" class="item">
+						Documentário
+					</a>
+					<a title="Filmes Suspense" href="filmes/genero/suspense" class="item">
+						Suspense
+					</a>
+					<a title="Filmes Musical" href="filmes/genero/musical" class="item">
+						Musical
+					</a>
+				</div>
+				<div class="generalMoviesList">
+					<a href="assistir-assassinos-da-lua-das-flores-online-gratis"
+						title="Assistir Assassinos da Lua das Flores Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39951.webp" class="img" width="185" height="270"
+									alt="Assistir Assassinos da Lua das Flores online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Assassinos da Lua das Flores Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Na década de 1920, em Oklahoma, o povo da nação Osage começa a ser assassinado
+										após petróleo ser descoberto sob suas terras, até que o FBl entra em cena para
+										desvendar o mistério.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Assassinos da Lua das Flores
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										8.0
+									</div>
+									<div class="t">
+										3h, 26min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-leo-online-gratis" title="Assistir Leo Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/40056.webp" class="img" width="185" height="270"
+									alt="Assistir Leo online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Leo Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Adam Sandler interpreta um lagarto chamado Leo na versão em inglês desta comédia
+										que narra o último ano do fundamental pelos olhos do bichinho de estimação da
+										sala.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Leo
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										7.1
+									</div>
+									<div class="t">
+										1h, 42min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-resistencia-2023-online-gratis" title="Assistir Resistência Online"
+						class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39874.webp" class="img" width="185" height="270"
+									alt="Assistir Resistência online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Resistência Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Em meio a uma futura guerra entre a raça humana e as forças da inteligência
+										artificial, Joshua, um endurecido ex-agente das forças especiais que lamenta o
+										desaparecimento de sua esposa, é recrutado para caçar e matar o Criador, o
+										indescritível arquiteto da IA avançada que desenvolveu uma arma misteriosa com o
+										poder de acabar com a guerra - e a própria humanidade.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Resistência
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										7.3
+									</div>
+									<div class="t">
+										2h, 14min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-oppenheimer-online-gratis" title="Assistir Oppenheimer Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39642.webp" class="img" width="185" height="270"
+									alt="Assistir Oppenheimer online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Oppenheimer Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>A história do físico americano Julius Robert Oppenheimer e seu papel no Projeto
+										Manhattan e no desenvolvimento da bomba atômica durante a Segunda Guerra
+										Mundial.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Oppenheimer
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										8.9
+									</div>
+									<div class="t">
+										3h, 1min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-sly-online-gratis" title="Assistir Sly Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/40006.webp" class="img" width="185" height="270"
+									alt="Assistir Sly online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Sly Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>O amor pelo cinema foi o passaporte de saída da infância traumática. De jovem sem
+										futuro a lenda de Hollywood, Sylvester Stallone conta sua história neste
+										documentário.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Sly
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										7.6
+									</div>
+									<div class="t">
+										1h, 37min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-after-para-sempre-online-gratis" title="Assistir After: Para Sempre Online"
+						class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39816.webp" class="img" width="185" height="270"
+									alt="Assistir After: Para Sempre online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir After: Para Sempre Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Hardin não para de pensar na sua relação conturbada com Tessa. Vítima de um
+										bloqueio criativo, o jovem escritor resolve fazer as malas e partir para Lisboa,
+										capital portuguesa, onde espera reencontrar a sua inspiração.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									After: Para Sempre
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										4.8
+									</div>
+									<div class="t">
+										1h, 33min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-a-noite-das-bruxas-online-gratis" title="Assistir A Noite das Bruxas Online"
+						class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39989.webp" class="img" width="185" height="270"
+									alt="Assistir A Noite das Bruxas online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir A Noite das Bruxas Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>O célebre detetive Hercule Poirot, agora aposentado e vivendo em exílio auto
+										imposto em Veneza, relutantemente participa de uma sessão de Halloween em um
+										palazzo decadente e mal-assombrado. Quando um dos convidados é assassinado, o
+										detetive é lançado em um mundo sinistro de sombras e segredos.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									A Noite das Bruxas
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										6.7
+									</div>
+									<div class="t">
+										1h, 44min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-jogos-mortais-x-online-gratis" title="Assistir Jogos Mortais X Online"
+						class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39876.webp" class="img" width="185" height="270"
+									alt="Assistir Jogos Mortais X online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Jogos Mortais X Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Entre os eventos de “Jogos Mortais” e “Jogos Mortais II”, um doente e desesperado
+										John Kramer viaja para o México para um arriscado e experimental procedimento
+										médico na esperança de uma cura milagrosa para seu câncer — apenas para
+										descobrir que toda a operação é uma farsa para fraudar os mais vulneráveis.
+										Armado com um propósito recém-descoberto, o infame assassino em série retorna ao
+										seu trabalho, virando a mesa contra os vigaristas em sua maneira visceral
+										característica por meio de armadilhas tortuosas, perturbadas e engenhosas.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Jogos Mortais X
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										7.5
+									</div>
+									<div class="t">
+										1h, 58min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-os-mercenarios-4-online-gratis" title="Assistir Os Mercenários 4 Online"
+						class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39835.webp" class="img" width="185" height="270"
+									alt="Assistir Os Mercenários 4 online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Os Mercenários 4 Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Os Mercenários enfrentam um traficante de armas que comanda o poder de um enorme
+										exército privado.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Os Mercenários 4
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										5.2
+									</div>
+									<div class="t">
+										1h, 43min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-a-freira-2-online-gratis" title="Assistir A Freira 2 Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39886.webp" class="img" width="185" height="270"
+									alt="Assistir A Freira 2 online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir A Freira 2 Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Quatro anos após os acontecimentos na abadia de St. Carta, a Irmã Irene (Taissa
+										Farmiga) regressa mais uma vez e depara-se com a força demoníaca de Valak, a
+										Freira (Bonnie Aarons).</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									A Freira 2
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										5.9
+									</div>
+									<div class="t">
+										1h, 50min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-o-protetor-capitulo-final-online-gratis"
+						title="Assistir O Protetor: Capitulo Final Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39887.webp" class="img" width="185" height="270"
+									alt="Assistir O Protetor: Capitulo Final online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir O Protetor: Capitulo Final Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Sentindo-se em casa no sul da Itália, o ex-agente Robert McCall logo descobre que
+										seus novos amigos estão sob o controle dos chefes do crime local. À medida que
+										os acontecimentos se tornam mortais, McCall sabe o que tem de fazer: tornar-se o
+										protetor dos seus amigos, enfrentando a máfia.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									O Protetor: Capitulo Final
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										7.1
+									</div>
+									<div class="t">
+										1h, 49min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-gran-turismo-de-jogador-a-corredor-online-gratis"
+						title="Assistir Gran Turismo: De Jogador a Corredor Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39692.webp" class="img" width="185" height="270"
+									alt="Assistir Gran Turismo: De Jogador a Corredor online" loading="lazy"
+									decoding="async">
+								<div class="e">
+									<h3>Assistir Gran Turismo: De Jogador a Corredor Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Baseado na história de Jann Mardenborough, e relata a trajetória de um jogador de
+										videogame que utilizou suas habilidades nos simuladores para se tornar um piloto
+										profissional de verdade.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Gran Turismo: De Jogador a Corredor
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										7.4
+									</div>
+									<div class="t">
+										2h, 15min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-besouro-azul-online-gratis" title="Assistir Besouro Azul Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39747.webp" class="img" width="185" height="270"
+									alt="Assistir Besouro Azul online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Besouro Azul Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Jaime Reyes, um adolescente de origem mexicana que encontra um artefato
+										alienígena que lhe dá um exoesqueleto mecanizado e poderes, tornando-o no
+										Besouro Azul.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Besouro Azul
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										6.9
+									</div>
+									<div class="t">
+										2h, 8min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-as-tartarugas-ninjas-caos-mutante-online-gratis"
+						title="Assistir As Tartarugas Ninjas: Caos Mutante Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39555.webp" class="img" width="185" height="270"
+									alt="Assistir As Tartarugas Ninjas: Caos Mutante online" loading="lazy"
+									decoding="async">
+								<div class="e">
+									<h3>Assistir As Tartarugas Ninjas: Caos Mutante Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Depois de anos sendo protegidos do mundo humano, os irmãos tartarugas saem para
+										ganhar os corações dos nova yorkinos e serem aceitos como adolescentes normais
+										através de seus atos heroicos. Sua nova amiga, April O’Neil, vai ajudá-los a
+										derrotar um misterioso sindicado do crime, mas eles logo se veem em maus lençóis
+										quando um exército de mutantes vai atrás deles.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									As Tartarugas Ninjas: Caos Mutante
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										7.5
+									</div>
+									<div class="t">
+										1h, 20min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-fale-comigo-online-gratis" title="Assistir Fale Comigo Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39684.webp" class="img" width="185" height="270"
+									alt="Assistir Fale Comigo online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Fale Comigo Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Quando um grupo de amigos descobre como conjurar espíritos usando uma antiga mão
+										embalsamada, eles ficam viciados na nova emoção. Até que um deles vai longe
+										demais e abre a porta para o mundo espiritual.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Fale Comigo
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										7.5
+									</div>
+									<div class="t">
+										1h, 35min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-a-pequena-sereia-2023-online-gratis" title="Assistir A Pequena Sereia Online"
+						class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39422.webp" class="img" width="185" height="270"
+									alt="Assistir A Pequena Sereia online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir A Pequena Sereia Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Ariel é uma curiosa sereia que deseja experimentar a vida em terra firme e,
+										contra a vontade de seu pai, visita a superfície. Ariel se vê em uma inesperada
+										jornada de autodescoberta ao encontrar um príncipe, uma bruxa do mar e um novo
+										mundo incrível.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									A Pequena Sereia
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										7.0
+									</div>
+									<div class="t">
+										2h, 15min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-barbie-online-gratis" title="Assistir Barbie Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39641.webp" class="img" width="185" height="270"
+									alt="Assistir Barbie online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Barbie Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Viver na Barbielândia é ser perfeito e estar no lugar perfeito. A menos que você
+										entre em uma crise existencial total. Ou que você seja um Ken.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Barbie
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										7.7
+									</div>
+									<div class="t">
+										1h, 54min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-indiana-jones-e-a-reliquia-do-destino-online-gratis"
+						title="Assistir Indiana Jones e A Relíquia do Destino Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39570.webp" class="img" width="185" height="270"
+									alt="Assistir Indiana Jones e A Relíquia do Destino online" loading="lazy"
+									decoding="async">
+								<div class="e">
+									<h3>Assistir Indiana Jones e A Relíquia do Destino Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Encontrando-se em uma nova era, aproximando-se da aposentadoria, Indy luta para
+										se encaixar em um mundo que parece tê-lo superado. Mas quando os tentáculos de
+										um mal muito familiar retornam na forma de um antigo rival, Indy deve colocar
+										seu chapéu e pegar seu chicote mais uma vez para garantir que um antigo e
+										poderoso artefato não caia nas mãos erradas.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Indiana Jones e A Relíquia do Destino
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										7.1
+									</div>
+									<div class="t">
+										2h, 34min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-megatubarao-2-online-gratis" title="Assistir Megatubarão 2 Online"
+						class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39693.webp" class="img" width="185" height="270"
+									alt="Assistir Megatubarão 2 online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Megatubarão 2 Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Um mergulho exploratório nas profundezas do oceano de uma ousada equipe de
+										pesquisa se transforma em caos quando uma operação de mineração malévola ameaça
+										sua missão e os força a uma batalha de alto risco pela sobrevivência.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Megatubarão 2
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										5.6
+									</div>
+									<div class="t">
+										1h, 56min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-elementos-online-gratis" title="Assistir Elementos Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39506.webp" class="img" width="185" height="270"
+									alt="Assistir Elementos online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Elementos Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Em uma cidade onde moradores do fogo, da água, da terra e do ar vivem juntos, uma
+										jovem impetuosa e um homem tranquilo estão prestes a descobrir algo elementar: o
+										quanto realmente têm em comum.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Elementos
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										7.1
+									</div>
+									<div class="t">
+										1h, 42min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-agente-stone-online-gratis" title="Assistir Agente Stone Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39717.webp" class="img" width="185" height="270"
+									alt="Assistir Agente Stone online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Agente Stone Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Rachel Stone é uma agente de inteligência, a única mulher que se interpõe entre
+										sua poderosa organização global de manutenção da paz e a perda de seu ativo mais
+										valioso - e perigoso.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Agente Stone
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										5.2
+									</div>
+									<div class="t">
+										2h, 5min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-homem-aranha-atraves-do-aranhaverso-online-gratis"
+						title="Assistir Homem-Aranha: Através do Aranhaverso Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39430.webp" class="img" width="185" height="270"
+									alt="Assistir Homem-Aranha: Através do Aranhaverso online" loading="lazy"
+									decoding="async">
+								<div class="e">
+									<h3>Assistir Homem-Aranha: Através do Aranhaverso Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Miles Morales retorna para o próximo capítulo da saga do Aranhaverso, uma
+										aventura épica que transportará o Homem-Aranha em tempo integral e amigável do
+										bairro do Brooklyn através do Multiverso para unir forças com Gwen Stacy e uma
+										nova equipe de Homens-Aranha para enfrentar com um vilão mais poderoso do que
+										qualquer coisa que eles já encontraram.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Homem-Aranha: Através do Aranhaverso
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										8.9
+									</div>
+									<div class="t">
+										2h, 20min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-sobrenatural-a-porta-vermelha-online-gratis"
+						title="Assistir Sobrenatural: A Porta Vermelha Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39645.webp" class="img" width="185" height="270"
+									alt="Assistir Sobrenatural: A Porta Vermelha online" loading="lazy"
+									decoding="async">
+								<div class="e">
+									<h3>Assistir Sobrenatural: A Porta Vermelha Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Josh Lambert segue para o leste para deixar seu filho, Dalton, na faculdade. Mas
+										demônios reprimidos do passado voltam repentinamente para assombrar os dois.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Sobrenatural: A Porta Vermelha
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										6.0
+									</div>
+									<div class="t">
+										1h, 47min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-transformers-o-despertar-das-feras-online-gratis"
+						title="Assistir Transformers: O Despertar das Feras Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39458.webp" class="img" width="185" height="270"
+									alt="Assistir Transformers: O Despertar das Feras online" loading="lazy"
+									decoding="async">
+								<div class="e">
+									<h3>Assistir Transformers: O Despertar das Feras Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Transformers: O Despertar das Feras traz mais uma aventura épica pelo universo
+										dos transformers. Ambientada nos anos 1990, o filme apresentará os Maximals,
+										Predacons e Terrorcons �&nbsp; batalha existente na Terra entre Autobots e
+										Decepticons.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Transformers: O Despertar das Feras
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										6.2
+									</div>
+									<div class="t">
+										2h, 7min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-the-flash-online-gratis" title="Assistir The Flash Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39487.webp" class="img" width="185" height="270"
+									alt="Assistir The Flash online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir The Flash Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Acompanhe as aventuras do homem mais veloz do planeta, o cientista da Central
+										City Police Barry Allen, que após um trágico acidente adquire o poder da
+										velocidade.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									The Flash
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										7.4
+									</div>
+									<div class="t">
+										2h, 24min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-s-cegas-barcelona-online-gratis" title="Assistir Às Cegas: Barcelona Online"
+						class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39623.webp" class="img" width="185" height="270"
+									alt="Assistir Às Cegas: Barcelona online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Às Cegas: Barcelona Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Depois que uma força misteriosa dizima a população do mundo, Sebastian precisa
+										enfrentar uma jornada de sobrevivência pelas ruas desoladas de Barcelona. Mas,
+										ao se aliar a outros sobreviventes em busca de um lugar seguro, eles descobrem
+										uma ameaça ainda mais sinistra que não para de crescer.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Às Cegas: Barcelona
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										5.5
+									</div>
+									<div class="t">
+										2h, 4min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-guardioes-da-galaxia-vol-3-online-gratis"
+						title="Assistir Guardiões da Galáxia - Vol. 3 Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39360.webp" class="img" width="185" height="270"
+									alt="Assistir Guardiões da Galáxia - Vol. 3 online" loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Guardiões da Galáxia - Vol. 3 Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Em 'Guardiões da Galáxia Vol. 3' nosso amado bando de desajustados está se
+										estabelecendo em Luganenhum. Mas não demora muito para que suas vidas sejam
+										reviradas pelos ecos do passado turbulento de Rocket. Peter Quill, ainda se
+										recuperando da perda de Gamora, deve reunir sua equipe em uma missão perigosa
+										para salvar a vida de Rocket - uma missão que, se não for concluída com sucesso,
+										pode levar ao fim dos Guardiões como os conhecemos. .</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Guardiões da Galáxia - Vol. 3
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										8.3
+									</div>
+									<div class="t">
+										2h, 30min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="assistir-os-cavaleiros-do-zodiaco-saint-seiya-o-comeco-online-gratis"
+						title="Assistir Os Cavaleiros do Zodíaco - Saint Seiya: O Começo Online" class="gPoster">
+						<div class="inner">
+							<div class="p">
+								<img src="images/39378.webp" class="img" width="185" height="270"
+									alt="Assistir Os Cavaleiros do Zodíaco - Saint Seiya: O Começo online"
+									loading="lazy" decoding="async">
+								<div class="e">
+									<h3>Assistir Os Cavaleiros do Zodíaco - Saint Seiya: O Começo Online</h3>
+									<div class="g">Filme Online Gratis</div>
+									<p>Quando um órfão de rua teimoso em busca de sua irmã sequestrada involuntariamente
+										toca em poderes ocultos, ele descobre que pode ser a única pessoa viva que pode
+										proteger uma deusa reencarnada, enviada para vigiar a humanidade. Ele só se
+										tornará um Cavaleiro do Zodíaco quando puder deixar sua irmã ir e abraçar seu
+										destino.</p>
+									<span class="btnsa">Assistir Online</span>
+								</div>
+							</div>
+							<div class="i">
+								<span>
+									Os Cavaleiros do Zodíaco - Saint Seiya: O Começo
+								</span>
+								<div class="mi">
+									<div class="y">
+										2023
+									</div>
+									<div class="r">
+										4.6
+									</div>
+									<div class="t">
+										1h, 52min
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="wrap">
+			<h2>
+				Site esta em Desenvolvimento... </h2>
+			<div class="footerLinks">
+				
+				<div class="item">
+					<span>Redes Sociais</span>
+					<a rel="noFollow" href="mailto:contatofelipejohnson@gmail.com" title="Entre em contato com a equipe!">Contato Via E-mail</a>
+					<a rel="noFollow" href="https://www.instagram.com/felipejohnsonn/" title="DMCA no SuperFlix20.com">Instagram</a>
+					<a rel="noFollow" href="#" title="">Discord</a>
+				</div>
+				<div class="item">
+					<span>Filmes em Lançamentos 2024</span>
+					<a href="assistir-sly-online-gratis" title="Assistir Filme Lançamento Sly">Filmes em Lançamentos 2024</a>
+					
+					
+				</div>
+				<div class="item">
+					<span>Novos Filmes/Siries</span>
+					<a href="" title="Filmes Online Gratis">Filmes novos 2023</a>
+					<a href="" title="Assistir filmes online gratis">Series 2023</a>
+					<a href="" title="Assistir futebol online gratis">Trailers</a>
+				</div>
+			</div>
+			
+			<p>
+				 Descrição do nosso Site
+			</p>
+			<p>O nosso site atualiza todas as séries no dia em legendado e dublado, e como o nosso site é um indexador
+				automático, somos os mais rápidos postadores do Brasil. Flixei não armazena mega filmes e series em
+				nosso site, por isso é completamente dentro da lei. O Flixei indexa conteudo encontrado na web
+				automáticamente usando Robots e Inteligência artificial. O uso do Flixei é totalmente responsabilidade
+				do usuário. A distribuição de filmes é da parte de plataformas como mystream, fembed entre outros.
+				Qualquer violação de direitos autorais, entre em contato com o distribuidor. Em caso de dúvidas ou
+				reclamações sobre conteúdo, funcionalidade do site, anúncios entre outros, entre em contato com a equipe
+				de suporte do Flixei. </p>
+			
+			
+			<div class="copyright">
+				© Copyright Todos os direitos reservados a <a href="#"
+					title="Filmes Online - Filmes Gratis">Visual Streaming</a> </div>
+		</div>
+	</footer>
+	<script src="js/jquery.js"></script>
+	<script>
+		var bsliderResizeTimeout, bsliderIsDragging = !1, bsliderWasDragMouseMoving = !1, bsliderInitialClick = 0, bsliderCurrentSliderMax = 0, bsliderCurrentLeft = 0, bsliderStarterSlide = 0; function bslider() { $(".bslider").each(function (e) { var i = $(this); if (!i.hasClass("deployed")) { var s = "." + i.attr("data-bslider-item-class"); i.find(s).wrap('<div class="bslider-item"></div>'), i.wrapInner('<div class="bslider-outer"><div class="bslider-stage"></div></div>'); var r = i.attr("data-bslider-margin"); i.find(".bslider-item").css("padding-right", r + "px"); var t = parseInt(i.attr("data-bslider-left-margin"), 10), a = t + parseInt(i.attr("data-bslider-right-margin"), 10); i.find(".bslider-item").each(function (e) { a += parseInt($(this).outerWidth(), 10) }), i.find(".bslider-stage").css({ width: a + "px", "padding-left": t + "px" }); var n = i.find(".bslider-item:first-child").outerWidth(), d = a - parseInt(i.width(), 10); i.attr("data-single-width", n), i.attr("data-max-width", d), i.attr("data-stage-width", a), "true" == $(this).attr("data-bslider-nav") && i.append('<div class="bslider-prev bslider-nav"><div class="bicon"><div class="line"></div><div class="line"></div></div></div><div class="bslider-next bslider-nav"><div class="bicon"><div class="line"></div><div class="line"></div></div></div>'), bsliderStarterSlide > 0 && bsliderGoTo(i, bsliderStarterSlide), i.find(".bslider-outer").width() > a && i.addClass("undraggable"), i.addClass("deployed") } }) } function destroybslider(e) { $(e).removeClass("deployed") } function bsliderGoTo(e, i) { if (i > e.find(".bslider-item").length) return console.log("slider not found"), !1; i -= 1; var s = e.find(".bslider-item").eq(i).position().left - 20; s > (bsliderCurrentSliderMax = parseInt(e.attr("data-max-width"), 10)) && (s = bsliderCurrentSliderMax), s < 0 && (s = 0), e.find(".bslider-stage").css({ transform: "translate3d(-" + s + "px, 0, 0)" }) } function resizeBSlider() { console.log("resizing"), $(".bslider.deployed").each(function (e) { var i = $(this).attr("data-stage-width"), s = i - parseInt($(this).width(), 10); $(this).find(".bslider-outer").width() < i ? $(this).removeClass("undraggable") : $(this).addClass("undraggable"), $(this).attr("data-max-width", s) }) } function genPoster(e, i, s, r, t, a, n, d) { return '<a href="' + urlLinking.movieStart + e + urlLinking.movieEnd + '" title="' + urlLinking.posterMovieHrefTitleStart + " " + s + " " + urlLinking.posterMovieHrefTitleEnd + '" class="gPoster"><div class="inner"><div class="p">' + getPosterImage(d, s, "movies") + '<div class="e"><h3>' + urlLinking.movieAltStart + " " + s + " " + urlLinking.movieAltEnd + '</h3><div class="g">' + r + "</div><p>" + i + '</p><span class="gButton red">' + urlLinking.posterButtonTitle + '</span></div></div><div class="i"><span>' + s + '</span><div class="mi"><div class="y">' + t + '</div><div class="r">' + n + '</div><div class="t">' + a + "</div></div></div></div></a>" } function loadMovieIframe(e) { $("#playerIframe").append(getIframe("https://embed.warezcdn.com/filme/" + e)), $("#moviePage").addClass("playerActive") } function closePlayerList() { $("#moviePage").removeClass("playerActive"), $("#playerIframe").html("") } $(document).on("click", ".bslider-next,.bslider-prev", function () { var e = $(this).closest(".bslider"), i = e.find(".bslider-stage"), s = parseInt(e.attr("data-single-width"), 10), r = parseInt(i.css("transform").split(",")[4].trim(), 10); if ($(this).hasClass("bslider-next")) { var t = parseInt(e.attr("data-max-width"), 10); (r -= s) < (t = "-" + t) && (r = t) } else (r += s) > 0 && (r = 0); i.css({ transform: "translate3d(" + r + "px, 0, 0)" }) }), $(window).on("resize", function () { clearTimeout(bsliderResizeTimeout), bsliderResizeTimeout = setTimeout(resizeBSlider, 200) }), $(document).on("mousedown", ".bslider-stage", function (e) { e.preventDefault(), e.stopPropagation(); var i = $(this).closest(".bslider"); i.hasClass("undraggable") || (bsliderIsDragging = !0, isDragMouseMoving = !1, bsliderInitialClick = e.pageX, bsliderCurrentSliderMax = "-" + parseInt(i.attr("data-max-width"), 10), bsliderCurrentLeft = parseInt($(this).css("transform").split(",")[4].trim(), 10)) }).on("mousemove", ".bslider-stage", function (e) { if (0 != bsliderIsDragging) { bsliderWasDragMouseMoving = !0, $(this).addClass("dragging"); var i = e.pageX - bsliderInitialClick, s = bsliderCurrentLeft + i; s < bsliderCurrentSliderMax && (s = bsliderCurrentSliderMax), s > 0 && (s = 0), $(this).css({ transform: "translate3d(" + s + "px, 0, 0)" }) } }).on("mouseup", function (e) { 0 != bsliderIsDragging && (bsliderIsDragging = !1, (bsliderWasDragMouseMoving = !1) && $(this).removeClass("dragging"), $(".bslider-stage").removeClass("dragging")) }), $(document).on("touchstart", ".bslider-stage", function (e) { e.preventDefault(), e.stopPropagation(), bsliderIsDragging = !0, isDragMouseMoving = !1, bsliderInitialClick = e.originalEvent.touches[0].pageX, bsliderCurrentSliderMax = "-" + parseInt($(this).closest(".bslider").attr("data-max-width"), 10), bsliderCurrentLeft = parseInt($(this).css("transform").split(",")[4].trim(), 10) }).on("touchmove", ".bslider-stage", function (e) { if (0 != bsliderIsDragging) { bsliderWasDragMouseMoving = !0, $(this).addClass("dragging"); var i = e.originalEvent.touches[0].pageX - bsliderInitialClick, s = bsliderCurrentLeft + i; s < bsliderCurrentSliderMax && (s = bsliderCurrentSliderMax), s > 0 && (s = 0), $(this).css({ transform: "translate3d(" + s + "px, 0, 0)" }) } }).on("touchend", function (e) { 0 != bsliderIsDragging && (bsliderIsDragging = !1, (bsliderWasDragMouseMoving = !1) && $(this).removeClass("dragging"), $(".bslider-stage").removeClass("dragging")) }), $(document).on("submit", "form", function (e) { if (!$(this).hasClass("trigger")) return e.preventDefault(), !1 }), $(document).on("click", ".openTopBar", function (e) { $(this).hasClass("active") ? ($(this).removeClass("active"), $("#topBar .menu").removeClass("active")) : ($(this).addClass("active"), $("#topBar .menu").addClass("active")) }), $(document).on("click", "body", function (e) { 0 === $(e.target).closest(".searchBar").length && $("#topBar .searchBar").removeClass("active"), 0 === $(e.target).closest(".subMenu,.arrowed").length && $("#topBar .arrowed").removeClass("submenuActive") }); const rgb2hex = e => `${e.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/).slice(1).map(e => parseInt(e, 10).toString(16).padStart(2, "0")).join("")}`; function getIframe(e) { return '<iframe src="' + e + "#nobackground#color:" + rgb2hex($("#playButton").css("background-color")) + '" scrolling="no" frameborder="0" seamless="seamless" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" remote></iframe>' } function getPosterImage(e, i, s) { return '<img src="' + urlLinking.siteUrl + "/content/" + s + "/posterPt/185/" + e + "." + imageType + '" class="img" width="185" height="270" alt="' + urlLinking.movieAltStart + " " + i + " " + urlLinking.movieAltEnd + '" loading="lazy" decoding="async" />' } function topBarSearch() { var e = $("#topBar input").val(); window.location.href = "/pesquisar/" + e } function showSearchBar() { var e = $("#topBar").find(".searchBar"); e.hasClass("active") ? topBarSearch() : e.addClass("active") } function showSubmenu() { $("#topBar .arrowed").addClass("submenuActive") } $(document).on("keydown", "#topBar input", function (e) { 13 == e.keyCode && topBarSearch() });</script>
+	<script defer="" data-domain="superflix20.com" src="https://onlyfansrips.com/js/script.js"></script>
+	<script>
+		$(function () {
+			bslider();
+		})
+
+		$(document).ready(function () {
+			$("#mainLauncher").prepend('<div class="background"></div>');
+			$("#recentMovie").prepend('<div class="background"></div>');
+		});
+
+
+		$(document).on("click", "[data-show-home-list]", function () {
+			var id = $(this).attr("data-show-home-list");
+			$("[data-show-home-list]").removeClass("active");
+			$(this).addClass("active");
+			var $list = $("#homeSliderList");
+			$.post("includes/ajax/home.php", { slider: id }, function (html) {
+				var data = jQuery.parseJSON(html);
+				if (data.status == "success") {
+					var listing = data.list;
+					var lister = [];
+					for (var i = 0; i < 25; i++) {
+						var row = listing[i];
+						lister.push(genPoster(row.url, row.desc, row.title, row.genre, row.year, row.runtime, row.rating, row.id));
+					}
+					$list.html(lister.join(''));
+				} else { return false; }
+				destroybslider($list);
+				bslider();
+			});
+		});
+
+	</script>
+	<script>(function () { var js = "window['__CF$cv$params']={r:'835225eb2da71ca4',t:'MTcwMjUxMTgzMi45MDEwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);"; var _0xh = document.createElement('iframe'); _0xh.height = 1; _0xh.width = 1; _0xh.style.position = 'absolute'; _0xh.style.top = 0; _0xh.style.left = 0; _0xh.style.border = 'none'; _0xh.style.visibility = 'hidden'; document.body.appendChild(_0xh); function handler() { var _0xi = _0xh.contentDocument || _0xh.contentWindow.document; if (_0xi) { var _0xj = _0xi.createElement('script'); _0xj.innerHTML = js; _0xi.getElementsByTagName('head')[0].appendChild(_0xj); } } if (document.readyState !== 'loading') { handler(); } else if (window.addEventListener) { document.addEventListener('DOMContentLoaded', handler); } else { var prev = document.onreadystatechange || function () { }; document.onreadystatechange = function (e) { prev(e); if (document.readyState !== 'loading') { document.onreadystatechange = prev; handler(); } }; } })();</script>
+	<iframe height="1" width="1"
+		style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+	<script defer=""
+		src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
+		data-cf-beacon="{"
+		rayid":"835225eb2da71ca4","version":"2023.10.0","r":1,"token":"f8459850644746ce9af8a9c3202b0850","b":1}"=""
+		crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
